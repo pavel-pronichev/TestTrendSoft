@@ -20,7 +20,6 @@
         <finalName>${pom.artifactId}</finalName>
 
         <plugins>
-            <!-- Maven compiler plugin -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
