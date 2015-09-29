@@ -41,7 +41,6 @@ public class DataDaoImpl implements DataDao{
     @Override
     public List<Employee> getSearchList(Employee employee){
         Session session = sessionFactory.openSession();
-        //String param = employee.getFirstName();
         @SuppressWarnings("unchaked")
         String paramFirstName = employee.getFirstName();
         String paramLastName = employee.getLastName();
